@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe Search</title>
+  </head>
+  <body>
+    <h1> Recipe Options: </h1>
+    <ul>
+        {% for recipe in recipe_options %}
+            <li>{{ recipe }}</li>
+        {% endfor %}
+    </ul>
+  </body>
+</html>
